@@ -3,8 +3,11 @@ name = "derico"
 version = "0.1.0"
 authors = ["Tristan Storch <tristan.storch@gmx.de>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Generic state debouncer for complete graphs"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tstorch/derico"
+keywords = ["no-std", "debounce", "debouncer", "button", "embedded-hal"]
+categories = ["embedded", "no-std"]
 
 [dependencies]
 num = "0.3.1"
